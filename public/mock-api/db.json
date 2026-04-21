@@ -1,0 +1,23 @@
+{
+  "endpoints": [
+    "POST /auth/login",
+    "POST /auth/register",
+    "GET /users",
+    "GET /users/:id",
+    "PATCH /users/:id",
+    "GET /skills",
+    "POST /skills",
+    "GET /user-skills?userId=:id",
+    "POST /user-skills",
+    "DELETE /user-skills/:id",
+    "GET /swap-requests",
+    "POST /swap-requests",
+    "PATCH /swap-requests/:id",
+    "GET /sessions",
+    "POST /sessions",
+    "PATCH /sessions/:id",
+    "GET /reviews",
+    "POST /reviews"
+  ],
+  "storage": "The running app uses localStorage-backed seed data and mock interceptors in src/app/core."
+}
